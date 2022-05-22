@@ -1,0 +1,10 @@
+export enum Directions {
+    EAST='EAST',
+    WEST='WEST',
+    NORTH='NORTH',
+    SOUTH='SOUTH',
+    NORTH_EAST='NORTH_EAST',
+    SOUTH_EAST='SOUTH_EAST',
+    NORTH_WEST='NORTH_WEST',
+    SOUTH_WEST='SOUTH_WEST'
+}

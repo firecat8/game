@@ -1,0 +1,124 @@
+.rows,
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.cols,
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.cell {
+  border: solid 1px #000000;
+}
+
+/*
+ 
+*/
+.square {
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  background-color: #b88b4a;
+}
+
+.even {
+  background-color: #b88b4a;
+}
+
+.odd {
+  background-color: #e4c170;
+}
+
+/*
+     bears and drinks css 
+*/
+.element {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: inherit;
+}
+
+.POLAR_BEAR {
+  background-image: url("assets/images/bears/polarBear.png");
+}
+
+.GIANT_PANDA {
+  background-image: url("assets/images/bears/giantPanda.png");
+}
+
+.SUN_BEAR {
+  background-image: url("assets/images/bears/sunBear.png");
+}
+
+.BROWN_BEAR {
+  background-image: url("assets/images/bears/brownBear.png");
+}
+
+.AMERICAN_BLACK_BEAR {
+  background-image: url("assets/images/bears/americanBlackBear.png");
+}
+
+.VODKA {
+  background-image: url("assets/images/drinks/vodka.png");
+}
+
+.WHISKEY {
+  background-image: url("assets/images/drinks/whiskey.png");
+}
+
+.BRANDY {
+  background-image: url("assets/images/drinks/brandy.png");
+}
+
+.BEER {
+  background-image: url("assets/images/drinks/beer.png");
+}
+
+.GIN {
+  background-image: url("assets/images/drinks/gin.png");
+}
+
+.GIN_AND_TONIC {
+  background-image: url("assets/images/drinks/ginAndTonic.png");
+}
+
+/*
+     cards css 
+*/
+.blackCard {
+  background-color: #000000;
+  background-image: url("assets/images/cards/surprise.png");
+}
+
+.redCard {
+  background-color: #950000;
+  background-image: url("assets/images/cards/shield-swords.png");
+}
+
+.greenCard {
+  background-color: #1c5e00;
+  background-image: url("assets/images/cards/directions.png");
+}
+
+.blueCard {
+  background-color: #10306a;
+  background-image: url("assets/images/cards/directions.png");
+}
+
+.closedCard {
+  border: 5px solid gray;
+  height: 110px;
+  width: 80px;
+  margin: 10px;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+  text-align: center;
+}

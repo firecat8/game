@@ -1,0 +1,6 @@
+<div class="square " [ngClass]="{even:isEven===true,odd:isEven===false}"> 
+  <div class="element " *ngIf="hasBear() && !hasDrink()" [ngClass]="getBearClass()"> </div>
+
+  <div class="element " *ngIf="!hasBear() && hasDrink()" [ngClass]="getDrinkClass()"></div>
+
+</div>

@@ -1,0 +1,7 @@
+<div class="rows" *ngFor="let r of rows">
+  <div  class="cols" *ngFor="let c of cols">
+    <div class="block" [style.backgroundColor]="getColor(r,c)">
+      {{getText(r,c)}}
+    </div>
+  </div>
+</div>

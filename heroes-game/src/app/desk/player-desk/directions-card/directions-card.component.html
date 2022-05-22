@@ -1,0 +1,26 @@
+<div class="col">
+  <div class="row">
+    <div class="square" [ngClass]="{'milkGlass': hasDirection('NORTH_WEST')}">
+    </div>
+    <div class="square" [ngClass]="{'milkGlass': hasDirection('NORTH')}">
+    </div>
+    <div class="square" [ngClass]="{'milkGlass': hasDirection('NORTH_EAST')}">
+    </div>
+  </div>
+  <div class="row">
+    <div class="square" [ngClass]="{'milkGlass': hasDirection('WEST')}">
+    </div>
+    <div class="square bearFace" >
+    </div>
+    <div class="square" [ngClass]="{'milkGlass': hasDirection('EAST')}">
+    </div>
+  </div>
+  <div class="row">
+    <div class="square" [ngClass]="{'milkGlass': hasDirection('SOUTH_WEST')}">
+    </div>
+    <div class="square" [ngClass]="{'milkGlass': hasDirection('SOUTH')}">
+    </div>
+    <div class="square" [ngClass]="{'milkGlass': hasDirection('SOUTH_EAST')}">
+    </div>
+  </div>
+</div>

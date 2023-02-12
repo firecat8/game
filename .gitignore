@@ -36,3 +36,5 @@ nb-configuration.xml
 nbactions.xml
 target/
 nbproject/
+.angular/
+node_modules/
